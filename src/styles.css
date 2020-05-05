@@ -1,0 +1,63 @@
+* {
+  background: #04a1bf;
+}
+.App {
+  height: 100vh;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 35px;
+  justify-content: middle;
+}
+
+.todo {
+  border: none;
+  padding: 10px;
+  background-color: #34cceb;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.todo:hover,
+.todo:hover .trashIcon {
+  background-color: #23d6fa;
+}
+
+.textBox {
+  border: none;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
+  position: static;
+}
+
+#counter {
+  margin-top: -28px;
+  margin-left: 353px;
+  font-size: 12px;
+}
+
+.trashIcon {
+  width: 20px;
+  margin-left: 55px;
+  margin-bottom: -3px;
+  background-color: #34cceb;
+}
+
+#btnClicked,
+#btnClicked .trashIcon {
+  text-decoration: line-through;
+  background: rgb(31, 194, 26);
+}
